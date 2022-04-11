@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmartSafetyApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_mygoogle">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+</resources>

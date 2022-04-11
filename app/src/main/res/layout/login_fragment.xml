@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="Enter Username"
+        android:layout_marginTop="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:hint="Password"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@drawable/loginbutton"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_toLeftOf="@+id/imageButton3"
+        android:layout_toStartOf="@+id/imageButton3"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/register"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_marginRight="30dp" />
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Panic"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Panic" />
+        <item
+            android:id="@+id/home"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Home Page" />
+        <item
+            android:id="@+id/news"
+            android:icon="@android:drawable/stat_notify_more"
+            android:title="News Feed" />
+        <item
+            android:id="@+id/contacts"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Quick Address Book" />
+        <item
+            android:id="@+id/maps"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Google Maps/Navigation" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/videos"
+            android:icon="@android:drawable/presence_video_online"
+            android:title="Videos" />
+
+        <item
+            android:id="@+id/search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Search on google" />
+        <item
+            android:id="@+id/website"
+            android:icon="@android:drawable/stat_notify_sync"
+            android:title="Website" />
+        <item
+            android:id="@+id/starred"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Starred" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/aboutus"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="About us" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/user_review"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="User review" />
+        </menu>
+    </item>
+
+</menu>
